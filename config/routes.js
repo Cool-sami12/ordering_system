@@ -22,7 +22,7 @@ module.exports.routes = {
   '/': { view: 'pages/homepage' },
   'get /': 'OrdersController.getOrder',
   'post /addorder': 'OrdersController.Create',
-  'post /:id': 'OrdersController.Create',
+  // 'post /:id': 'OrdersController.Create',
   'del /:id': 'OrdersController.Delete',
   'put /:id': 'OrdersController.Update',
 

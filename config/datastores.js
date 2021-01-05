@@ -51,7 +51,7 @@
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
     adapter: 'sails-postgresql',
-    url: 'postgres://tggnhqyo:4cMLzstwMNjA589nNVSH0barp471uKdB@suleiman.db.elephantsql.com:5432/tggnhqyo',
+    url: process.env.URL,
     // url: 'postgresql://user:password@host:port/database',
 
 
